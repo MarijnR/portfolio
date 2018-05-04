@@ -1,0 +1,17 @@
+@mixin backgroundCover($image) {
+background-image: url($image);
+height: 372px;
+background-position: center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+@mixin mainfont(){
+font-family: source sans pro;
+}
+
+@mixin secondfont(){
+font-family: 'Amtic Bold';
+}

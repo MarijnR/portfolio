@@ -1,0 +1,322 @@
+
+
+/* Custom, iPhone Retina */
+@media screen and (min-width: 320px) {
+
+	.instructiesContainer {
+		padding:0;
+		@include backgroundcover('../img/bg.png');
+		height: 100%;
+		width: 100%;
+
+		}	.instructiesContainer {
+
+			width:90%;
+			margin: 0 auto;
+			max-width: 1800px;
+
+			.instructies {
+				width: 90%;
+				margin: 0 auto;
+				text-align: center;
+
+				ul {
+					list-style-type: none;
+					padding: 0;
+					padding: 0;
+					max-width: 1200px;
+					margin: auto;
+
+
+					li {
+						max-width: 500px;
+						display: inline-block;
+						vertical-align: middle;
+
+						.title1 {
+							font-family: titel;
+							font-size: 5em;
+							color:white;
+							text-shadow:1.5px 1.5px black;
+
+							img {
+								width: 25px;
+								padding-top: 12px;
+							}
+
+							.spelinstructies {
+								font-size: 0.3em;						
+								font-family: ondertitel;
+								text-shadow: none;
+							}
+						}
+
+						.title2 {
+
+						}
+
+
+					}
+
+					li.title {
+						text-align: center;
+					}
+
+					li.text p{
+						border: 3px solid $white;
+						color:white;
+						padding: 20px;
+						font-family: ondertitel;
+						font-size: 1.2em;
+						text-align: left;
+					}
+				}
+
+
+				.text.btn{
+					width: 90%;
+					margin: 0 auto;
+					max-width: 500px;
+					margin-top: 49px;
+
+					.playBTN img {
+						width: 200px;
+						margin-top:10px;
+
+					}
+				}
+				
+			}
+			.playBTN {
+				background-color: red;
+				position: relative;
+				a { 
+					position: absolute;
+					right:0;
+					padding-top: 30px;
+
+					img { 
+						width: 164px;
+						
+
+					}
+				}
+				
+			}
+			
+		}
+
+	}
+
+
+// Medium Devices, Desktops
+@media only screen and (min-width: 970px) {
+	.instructiesContainer {
+
+		width:90%;
+		margin: 0 auto;
+		max-width: 1800px;
+
+		.instructies {
+			
+			width: 90%;
+			margin: 0 auto;
+			text-align: center;
+			@include centering();
+			ul {
+				list-style-type: none;
+				padding: 0;
+				padding: 0;
+				max-width: 1200px;
+				margin: auto;
+
+				li {
+
+					width: 43%;
+					max-width: 500px;
+					display: inline-block;
+					vertical-align: middle;
+
+					.title1 {
+						font-family: titel;
+						font-size: 6em;
+						color:white;
+						text-shadow:1.5px 1.5px black;
+						img {
+							width: 27px;
+							padding-top: 12px;
+						}
+
+
+						.spelinstructies {
+							font-size: 0.3em;						
+							font-family: ondertitel;
+							text-shadow: none;
+						}
+					}
+
+
+
+				}
+
+				li.title {
+					text-align: center;
+				}
+
+				li.text p{
+					border: 3px solid $white;
+					color:white;
+					padding: 20px;
+					font-family: ondertitel;
+					font-size: 1em;
+
+				}
+			}
+
+
+		}
+
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1270px) {
+	.instructiesContainer {
+
+		.instructies {
+			position: fixed;
+			width: 95%;
+			margin: 0 auto;
+			text-align: center;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			ul {
+				list-style-type: none;
+				padding: 0;
+				padding: 0;
+				max-width: 1200px;
+				margin: auto;
+
+				li {
+					width: 37%;
+					max-width: 570px;
+					display: inline-block;
+					vertical-align: middle;
+					margin: 0px 30px 0px 30px;
+
+					.title1 {
+						font-family: titel;
+						font-size: 7.5em;
+						color:white;
+						text-shadow:1.5px 1.5px black;
+						line-height: 70px;
+
+						img {
+							width: 30px;
+							padding-top: 12px;
+						}
+
+
+						.spelinstructies {
+							font-size: 2rem;						
+							font-family: ondertitel;
+							text-shadow: none;
+						}
+					}
+
+					.title2 {
+
+					}
+
+				}
+
+				li.title {
+					text-align: center;
+				}
+
+				li.text p{
+					border: 3px solid $white;
+					color:white;
+					padding: 30px;
+					font-family: ondertitel;
+					font-size: 1em;
+
+				}
+			}
+
+
+		}
+
+	}
+}
+
+@media only screen and (min-width: 1700px) {
+	.instructiesContainer {
+
+		width:90%;
+		margin: 0 auto;
+		max-width: 1800px;
+
+		.instructies {
+			position: fixed;
+			width: 95%;
+			margin: 0 auto;
+			text-align: center;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			ul {
+				list-style-type: none;
+				padding: 0;
+				padding: 0;
+				max-width: 1800px;
+				margin: auto;
+
+				li {
+					width: 37%;
+					display: inline-block;
+					vertical-align: middle;
+					margin: 0px 30px 0px 30px;
+
+					.title1 {
+						font-family: titel;
+						font-size: 10em;
+						color:white;
+						text-shadow:1.5px 1.5px black;
+
+						img {
+							width: 50px;
+							padding-top: 12px;
+						}
+
+
+						.spelinstructies {
+							font-size: 0.3em;						
+							font-family: ondertitel;
+							text-shadow: none;
+						}
+					}
+
+				}
+
+				li.title {
+					text-align: center;
+				}
+
+				.text p {
+					border: 3px solid $white;
+					color:white;
+					padding: 40px;
+					font-family: ondertitel;
+					font-size: 1.7em;
+
+				}
+			}
+
+
+		}
+
+	}
+}
+

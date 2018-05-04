@@ -1,0 +1,83 @@
+/*==== navigation ====*/
+nav ul a:link,
+nav ul a:visited,
+nav ul a:hover,
+nav ul a:active{
+	font-size: 1.2rem;
+	text-decoration: none;
+	color: white;
+	display: block;
+	height: 30px;
+	width: 86px;
+	line-height: 32px;
+	margin: 0 auto;
+	font-family: exobold;
+	background-image: url("../images/bg_hovermenu.png");
+	background-size: contain;
+	background-position: -86px;
+	background-repeat: no-repeat;
+	-webkit-transition: background-position linear 0.3s;
+	-moz-transition: background-position linear 0.3s;
+	-ms-transition: background-position linear 0.3s;
+	-o-transition: background-position linear 0.3s;
+	transition: background-position linear 0.3s;
+}
+
+nav ul a:hover{
+	background-position: 0px;
+}
+
+/*=== about ===*/
+#self{
+	width: 220px;
+	height: 220px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 100%;
+	background-color: #036564;
+}
+
+
+/*=== work ===*/
+.grid figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0px;
+	background: rgba(34,30,30,1);
+	color: white;
+	-webkit-transition: all ease 1s;
+	-moz-transition: all ease 1s;
+	-ms-transition: all ease 1s;
+	-o-transition: all ease 1s;
+	transition: all ease 1s;
+}
+
+.cs-style-1 figcaption {
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	text-align: center;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility:hidden;
+	-o-backface-visibility:hidden;
+	backface-visibility: hidden;
+}
+
+.no-touch .cs-style-1 figure:hover figcaption,
+.cs-style-1 figure.cs-hover figcaption {
+	opacity: 1;
+}
+
+.cs-style-1 figcaption h3 {
+	margin-top: 70px;
+}
+
+.cs-style-1 figcaption span {
+	display: block;
+}
+
+.cs-style-1 figcaption a {
+	margin-top: 30px;
+}

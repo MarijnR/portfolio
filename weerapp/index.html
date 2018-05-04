@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weatherbee</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body onLoad="getLocation()">
+
+   <div id="container" class="animated fadeIn">
+         <p></p>
+       <article>
+            <section class="animatedli fadeInLeft">
+                <h1 id="vandaag_temp"></h1>
+
+                <img id="vandaag_img" src="" alt=""/>
+            </section>
+       </article>
+    <div class="clear"></div>
+
+           <ul>
+               <li class="animatedli1 fadeInLeft">
+                    <h2></h2>
+                    <img id="dag2_img" src="" alt=""/>
+                    <p id="dag2_temp"></p>
+                </li>
+               <li class="animatedli2 fadeInLeft">
+                   <h3></h3>
+                    <img id="dag3_img" src="" alt=""/>
+                    <p id="dag3_temp"></p>
+               </li>
+               <li class="animatedli3 fadeInLeft">
+                   <h4></h4>
+                    <img id="dag4_img" src="" alt=""/>
+                    <p id="dag4_temp"></p>
+               </li>
+           </ul>
+
+
+
+
+
+
+   </div>
+    
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="js/script.js"></script>
+</html>

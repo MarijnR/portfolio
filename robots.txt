@@ -1,0 +1,15 @@
+User-Agent: *
+Disallow:
+Disallow: /drupal
+Disallow: /website
+Disallow: /fancybox
+Disallow: /ecards
+Disallow: /test
+Disallow: /weerapp
+Disallow: /rent-a-student
+Disallow: /font
+Disallow: /files
+Disallow: /index2.html
+Disallow: /cgi-bin/
+
+Sitemap: http://ruttenmarijn.be/sitemap.xml

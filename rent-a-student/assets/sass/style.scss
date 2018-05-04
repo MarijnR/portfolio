@@ -1,0 +1,10 @@
+$color1: #FC4D4D;
+$color2: #00A99D;
+@import 'bourbon/bourbon';
+@import 'mixins/mixins';
+@import 'base';
+@import 'modules/homepage';
+@import 'modules/bezoeker';
+@import 'modules/gidsdatum';
+
+

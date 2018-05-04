@@ -1,0 +1,143 @@
+body, html, ul{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+  input, button {
+    border:none;
+    background: none;
+  }
+
+  .clearfix{
+    clear: both;
+  }
+
+  input[type=submit]:hover,
+  button:hover{
+    cursor: pointer;
+  }
+
+  .container{
+    @include backgroundcover("../img/bg.png");
+    width: 100%;
+    height: 100%;
+
+    .landing_container{
+      width: 700px;
+      height: 300px;
+      text-align: center;
+      @include centering;
+
+      .landing_title{
+        font-weight: normal;
+        background-image: url("../img/hashtag.png");
+        background-repeat: no-repeat;
+        display: inline;
+        background-size: 3.8rem, 3.8rem;
+        background-position: 0px, 10px;
+        padding-left: 70px;
+        color: $white;
+        margin: 0;
+        text-align: center;
+        font-size: 12rem;
+        font-family: titel;
+        text-shadow:1.5px 1.5px black;
+      }
+
+      p{
+        color: $white;
+        font-size: 2rem;
+        font-family: ondertitel;
+        margin-top: 20px;
+      }
+
+      #mc_embed_signup{
+        width: 586px;
+        margin: 0 auto;
+        input[type=submit]{
+          background-image:url("../img/knop_yougogirl.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          text-indent: -9999px;
+          height: 46px;
+          width: 233px;
+          margin-left: 40px;
+          float: left;
+        }
+
+        #message{
+          font-family: ondertitel;
+          color: $white;
+          top: -20px;
+          position: absolute;
+        }
+        #mc_embed_signup_scroll{
+          position: relative;
+        }
+
+        #mce-EMAIL{
+          font-family: ondertitel;
+          width: 300px;
+          height: 44px;
+          float: left;
+          padding-left: 12px;
+          font-size: 1.4rem;
+          background-color: $white;
+        }
+      }
+
+    }
+    .socialmedia_container{
+      list-style-type: none;
+      width: 210px;
+      height: 50px;
+      margin: 30px auto 0 auto;
+      li{
+        float: left;
+        margin-left: 20px;
+        margin-right: 20px;
+        a{
+          width: 30px;
+          height: 30px;
+          display: block;
+          text-indent: -90000px;
+          border-radius: 50px;
+          transition: all ease 0.3s;
+        }
+
+      }
+      .twitter a:link,
+      .twitter a:visited,
+      .twitter a:hover,
+      .twitter a:active{
+        background-image: url("../img/twitter.svg");
+        background-size: cover;
+      }
+      .facebook a:link,
+      .facebook a:visited,
+      .facebook a:hover,
+      .facebook a:active{
+        background-image: url("../img/facebook.svg");
+        background-size: cover;
+      }
+      .link a:link,
+      .link a:visited,
+      .link a:hover,
+      .link a:active{
+
+        background-image: url("../img/link.svg");
+        background-size: cover;
+      }
+
+    }
+    .socials{
+      width: 100%;
+      bottom: 0;
+      position: absolute;
+    }
+  }
+}
+
+

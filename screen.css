@@ -1,0 +1,406 @@
+html{
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	font-size: 62.5%;
+	font-family: exoregular;
+	background-image:url("../images/mobile_bg_pattern.png");
+	height: 100%;
+	width: 100%;
+}
+
+/*======= header =======*/
+#home{
+	width: 100%;
+	height: 100%;
+}
+
+header{
+	width: 100%;
+	height: 100%;
+}
+
+#home_footer{
+	background-color: #221e1e;
+	height: 20px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	z-index: -1;
+}
+
+/*=== logo ===*/
+
+#logoline{
+	visibility: hidden;
+}
+
+h1{
+	text-align: center;
+	font-family: exobold;
+	font-size: 1.6rem;
+	margin-top: 20px;
+	color: #221e1e;
+}
+
+/*======*NAVIGATION*=======*/
+
+#nav_wrapper{
+	position: fixed;
+	width: 250px;
+	height: 100%;
+	left: -200px;
+	top: 0;
+	bottom: 0;
+	z-index: 9999;
+}
+
+#twrapper{
+	position: fixed;
+	right: 0px;
+	top:0px;
+	background-color: black;
+	width: 0%;
+	height: 0%;
+	opacity: 0;
+	z-index: 9999;
+}
+/*===== menu =====*/
+
+nav ul{
+	text-align: center;
+	margin-top: 40px;
+}
+
+/*== menu button ==*/
+#btn_menu{
+	width: 50px;
+	height: 100%;
+	background-image: url("../images/btn_menu.svg");
+	background-repeat: no-repeat;
+	right: 0px;
+	z-index: 9999;
+	position: absolute;
+}
+
+#btn_menu span{
+    right: 0px;
+	z-index: 9999;
+	position: absolute;
+}
+
+#btn_menu:hover{
+		background-image:url("../images/btn_menu_green.svg");
+}
+
+
+/*=========Skills==========*/
+#skills_explane{
+	float: right;
+	max-width: 500px;
+	padding-bottom: 20px;
+}
+
+#arrow_skills{
+	float: left;
+	max-width: 400px;
+}
+
+#skills h2{
+	margin-top: -40px;
+}
+
+#skills p{
+	font-size: 1.0rem;
+	line-height: 20px;
+	margin-bottom: 20px;
+	font-family: exoregular;
+}
+
+#skills_wrapper{
+	width: 100%;
+	clear: both;
+	padding-bottom: 60px;
+}
+
+#skills{
+	width: 80%;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-top: 40px;
+	font-size: 1.2rem;
+	font-family: exobold;
+	color: #221e1e;
+}
+
+#skills h2{
+	font-size: 1.8rem;
+	font-family:exobold;
+	padding-bottom: 20px;
+}
+
+/*========About========*/
+
+#about{
+	width: 80%;
+	max-width: 1000px;
+	margin: 0 auto;
+	color: white;
+}
+
+#wrapper_about img{
+	width: 200px;
+	height: 200px;
+	margin-top: 10px;
+	margin-left: 9px;
+}
+
+#about h3{
+	font-size: 1.6rem;
+	font-family: exobold;
+	padding-top: 20px;
+	display: block;
+	float: right;
+	padding-right: 20px;
+}
+
+#quote{
+	float: right;
+	padding-bottom: 20px;
+}
+
+#about p{
+	clear: both;
+	font-size: 1.2rem;
+	line-height: 28px;
+	margin-bottom: 20px;
+}
+
+/*======= work =======*/
+#wrapper_work{
+	width: 100%;
+}
+
+#work{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#work h4{
+	position: relative;
+	font-family: exobold;
+	font-size: 1.6rem;
+	color: #221e1e;
+	padding-left: 20px;
+	padding-bottom: 40px;
+	margin-top: -40px;
+}
+
+.grid {
+	max-width: 1300px;
+	margin: 0 auto;
+	list-style: none;
+	text-align: center;
+}
+
+.grid li {
+	float: left;
+	display: inline-block;
+	max-width: 320px;
+	margin: 0;
+	text-align: left;
+	position: relative;
+}
+
+.grid figure {
+	width: 100%;
+	max-width: 320px;
+	margin-top:10px;
+	position: relative;
+}
+
+.grid figure img {
+	max-width: 100%;
+	display: block;
+	position: relative;
+}
+
+.grid span{
+	font-size: 1.6rem;
+	padding-top: 40px;
+	font-family: exobold;
+}
+
+.clear{
+	clear: both;
+}
+
+/*==== contact ====*/
+#contact{	
+	font-size: 1rem;
+	max-width: 320px;
+	height: 380px;
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 120px;
+	color: white;
+
+}
+
+#contact h5{
+	font-size: 1.6rem;
+	float: right;
+	font-family: exobold;
+}
+
+
+.formstyle{
+	float: left;
+	width: 100%;
+	height: 30px;
+	margin-left: auto;
+	margin-top: 20px;
+}
+
+#comment{
+	height: 60px;
+}
+
+#social_fb{
+	margin-top: 60px;
+}
+
+#social_tw{
+	margin-top: 60px;
+}
+
+#btn_contact{
+	background-color: #036564;
+	width: 80px;
+	height: 26px;
+	border: none;
+	font-family: exobold;
+	color: white;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	float: right;
+}
+
+/*======footer======*/
+
+#wrapper_footer{
+		width: 100%;
+		background-color: #036564;
+	}
+
+	footer{
+		margin: 0 auto;
+		width: 80%;
+		height: 140px;
+		padding-top: 40px;
+	}
+
+	footer hr{
+		margin-left: auto;
+		margin-right: auto;
+		height: 2px;
+		border: none;
+		background-color: #221e1e;
+	}
+
+	footer p{
+		text-align: center;
+		font-size: 0.8rem;
+		color: white;
+		padding-top: 10px;
+	}
+
+@media screen and (min-width: 320px) {
+
+	#logoline{
+		width: 200px;
+		height: 2px;
+		background-color: #221e1e;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 5%;
+	}
+
+	#work{
+		width: 320px;
+		max-width: 640px;
+	}
+
+	.grid figure {
+		margin-right: 10px;
+	}
+}
+
+@media screen and (min-width: 640px){
+
+	header h1{
+		margin-top: 40px;
+		font-size: 2.4rem;
+	}
+	
+	#logoline{
+		visibility: visible;
+		margin-top: 40px;
+		width: 400px;
+		height: 4px;
+	}
+
+	#btn_menu{
+		background-position: center;
+	}
+	
+	#skills{
+		width: 90%;
+	}
+
+	#skills_explane{
+		width: 50%;
+		padding-top: 40px;
+	}
+
+	#work{
+		width: 640px;
+		max-width: 960px;
+	}
+}
+
+@media screen and (min-width: 960px) {
+	
+	#work{
+		width: 960px;
+		padding-top: 20px;
+	}
+
+	#logoline{
+		margin-top: 40px;
+		width: 500px;
+		height: 4px;
+	}
+
+}
+
+@media screen and (max-height: 600px) {
+
+	#logoline{
+		visibility: hidden;
+		margin-top: 40px;
+		width: 400px;
+		height: 4px;
+	}
+}
+
+@media screen and (max-height: 400px){
+
+	header h1{
+		visibility: hidden;
+	}
+}

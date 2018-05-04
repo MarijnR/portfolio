@@ -1,0 +1,12 @@
+body {
+	background-image: url(../images/greenpeace.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+#wrapper {
+	margin: auto;
+	width: 974px;
+	padding-left: 26px;
+	padding-top: 88px;
+	height: 1200px;
+}

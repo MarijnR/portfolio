@@ -1,0 +1,456 @@
+* {
+margin:0;
+padding:0;
+}
+
+@font-face {
+    font-family: 'Amtic';
+    src: url('font/AmaticSC-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Amtic Bold';
+    src: url('font/amatic-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* PAGE HEADER */
+.header {
+@include backgroundCover("../img/Foto1.jpg");
+}
+
+	#logo{
+	margin-left: 2%;
+	}
+
+	#block h1 {
+	font-size: 0.8em;
+	padding: 5px;
+	text-align: center;
+	font-weight: bold;
+	width: 300px;
+	margin: 0 auto;
+	padding-top: 27px;
+
+	}
+
+
+/* POLYGON BREAK 1 */
+#polygonBreak {
+margin-top: -8vh;
+position: absolute;
+  z-index: 1;
+}
+
+	#block {
+	background-color: white;
+	width: 100%;
+	margin: 0;
+	}
+
+	#topTriangle {
+	height:0;
+	width: 0;
+	border-bottom: 8vh solid white;
+	border-left: 100vw solid transparent;
+	}
+
+	#bottomTriangle {
+	height:0;
+	width: 0;
+	border-top: 8vh solid white;
+	border-right: 100vw solid transparent;
+	}
+
+	#block .row {
+	margin: 0;
+	padding: 0;
+	height: 110px;
+}
+
+
+
+.tabs {
+  position: absolute;
+  min-height: 272px;
+  width: 246px;
+  margin-left: auto;  margin-right: auto;  left: 0;  right: 0;
+  margin-top: 114px;
+  z-index: 2;
+}
+
+.tabs span {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+}
+
+.tab {
+  float: left;
+  width: 123px;
+}
+.tab label {
+  background: #eee; 
+  padding: 0px 5px 9px 5px; 
+  margin-left: -1px; 
+  position: relative;
+  left: 1px; 
+  width: 123px;
+  font-size: 1.9em;
+  font-family: 'Amtic Bold';
+}
+.tab [type=radio] {
+  display: none;   
+}
+.content {
+  position: absolute;
+  top: 41px;
+  left: 0;
+  background: white;
+  right: 0;
+  bottom: 0;
+  padding: 18px;
+  /* border: 1px solid #ccc; */ 
+}
+[type=radio]:checked ~ label {
+  background: white;
+  border-bottom: 1px solid white;
+  z-index: 2;
+  /* font-size: 1.2em; */
+}
+[type=radio]:checked ~ label ~ .content {
+  z-index: 1;
+}
+
+	.tabs input {
+	margin-top: 5px;
+	border-radius: 0;
+	font-family: 'Amtic Bold';
+	}
+
+	.tabs button {
+	width: 100%;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	margin-top: 5px;
+	background-color: $color1;
+	border:none;
+	border-radius: 0;
+	color: white;
+	}
+
+
+div#register {
+  margin-top: 18px;
+}
+
+div#register button {
+	background-color: $color2;
+}
+
+
+/* RATING PAGE IMD'ERS*/
+#ratingPage {
+background-image: url("../img/Foto2.jpg");
+  
+/* height: 1330px; */
+background-position: center right;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+
+img#textBaloons {
+  position: absolute;
+  z-index: 0;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  margin-top: 49px;
+    width: 300px;
+}
+
+
+.people li.col-sm-6.col-md-6 {
+  height: 208px;
+  width: 348px;
+  margin: auto;
+}
+
+.people {
+	padding-top: 291px;
+	/* padding-bottom: 107px; */
+}
+
+ul#ratingBlock {
+  width: 331px;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 21px;
+  padding: 17px 5px 13px 16px;
+}
+
+ul#ratingBlock li {
+  width: 148px;
+  display: inline-block;
+}
+
+li.ratingTekst {
+height: 147px;
+vertical-align: top;
+font-family: source sans pro;
+font-weight: 300;
+text-align: center;
+
+}
+
+	.ratingTekst h3 {
+  	text-transform: uppercase;
+  	color: #00A99D;
+	}
+
+	.ratingTekst h4 {
+	font-weight: 300;
+	}
+
+
+	#block .row {
+	margin: 0;
+	padding: 0;
+	height: 110px;
+}
+
+#whiteFooter #block {
+height: 200px;
+}
+
+#blackFooter #topTriangle {
+  border-bottom: 8vh solid #333333;
+}
+
+#blackFooter #block {
+	background-color: #333333;
+}
+
+#blackFooter #bottomTriangle {
+	  border-top: 8vh solid #333333;
+}
+
+#blackFooter #block {
+height: 200px;
+}
+
+#blackFooter {
+  margin-top: -78px;
+}
+
+.gallery {
+  width: 252px;
+  margin: auto;
+}
+
+footer {
+  padding-top: 85px;
+}
+
+div#social {
+  width: 300px;
+  height: 200px;
+  /* background-color: red; */
+  margin: auto;
+  padding-top: 89px;
+}
+/*==========  Mobile First Method  ==========*/
+ 
+	/* Custom, iPhone Retina */
+	@media only screen and (min-width : 320px){
+ 
+	}
+ 
+	/* Extra Small Devices, Phones */
+	@media only screen and (min-width : 480px){
+ 
+	}
+ 
+	/* Small Devices, Tablets */
+	@media only screen and (min-width : 768px){
+ 		.header {
+		height: 503px;
+		}
+
+		#block {
+		height: 208px;
+		}
+
+
+		#block h1 {
+		font-size: 1.5em;
+  		
+		padding-top: 65px;
+  		width: 750px;
+		}
+
+		.tabs {
+		min-height: 215px;
+		width: 520px;
+		margin-top: 285px;
+		margin-left: 29vw;
+		}
+
+		.tabs input {
+		margin-bottom: 20px;
+		}
+
+		div#login {
+ 		width: 200px;
+  		float: left;
+		}
+
+		div#register {
+		margin-top: 10px;
+		margin-bottom: 20px;
+		width: 200px;
+		float: left;
+		margin-left: 64px;
+		}
+			#register span {
+  			font-size: 1.2em;
+			}
+
+		.tab label {
+		position: relative;
+		width: 260px;
+		}
+
+		.tab {
+		width: 260px;
+		}
+
+		img#textBaloons {
+	  	margin-top: 163px;
+	  	width: 403px;
+}
+
+
+		.people .row {
+		 width: 700px;
+		 margin: 0 auto;
+		}
+
+		.gallery {
+		 width: 641px;
+		 margin: 0 auto;
+		}
+
+		.people {
+ 		 padding-top: 587px;
+		
+ 		 padding-bottom: 117px;
+}
+
+
+
+		
+ul#ratingBlock {
+  width: 46%;
+  margin: 14px;
+}
+	
+	#ratingPage {
+
+}
+
+div#social {
+  width: 588px;
+
+  padding-top: 193px;
+}
+
+	.copyright {
+		color: white;
+		width: 348px;
+		margin: 0 auto;
+	
+		margin-top: 20px;
+}
+
+	.gallery #block {
+  height: 303px;
+}
+
+#blackFooter #block {
+  height: 311px;
+}
+
+#whiteFooter #block{
+height: 1000px;
+
+}
+
+div#block2 {
+   height: 318px; 
+   position: relative; 
+   background-color: white;
+}
+
+footer {
+  padding-top: 49px;
+}
+
+p.title {
+font-family: source sans pro;
+font-size: 2em;
+font-weight: 600;
+font-style: italic;
+text-align: center;
+padding-top: 20px;
+}
+
+
+}
+
+ 
+	/* Medium Devices, Desktops */
+	@media only screen and (min-width : 992px){
+ 		#block {
+		height: 300px;
+		}
+
+		#block h1 {
+		font-size: 2em;
+		}
+
+		.tabs {
+		margin-left: 42vw;
+		}
+
+		img#textBaloons {
+	  	margin-top: 240px;
+		}
+
+	.people .row {
+		 width: 700px;
+		 margin: 0 auto;
+		}
+
+		.gallery {
+		 width: 851px;
+		 margin: 0 auto;
+		}
+
+
+	}
+ 
+	/* Large Devices, Wide Screens */
+	@media only screen and (min-width : 1200px){
+ 	.tabs {
+		
+		 margin-left: 42vw;
+		}
+	}

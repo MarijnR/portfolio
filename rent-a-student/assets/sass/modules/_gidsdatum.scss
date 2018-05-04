@@ -1,0 +1,63 @@
+.header_gids {
+@include backgroundCover("../img/Foto3.jpg");
+}
+
+
+.container_datum {
+	height: 100%;
+	width: 100%;
+	background-color: #EEEEEE;
+	margin: 0 auto;
+	text-align: center;
+
+	.btn {
+	@include secondfont();
+	width: 236px;
+	font-weight: bold;
+	margin-top: 5px;
+	background-color: $color1;
+	border:none;
+	border-radius: 0;
+	color: white;
+	}
+
+	input{
+	width: 200px;
+	}
+
+	.datum_lijst{
+	list-style-type: none;
+  	background-color: white;
+  	margin-bottom: 10px;
+  	height: 30px;
+  	width: 258px;
+  	line-height: 30px;
+  	text-align: left;
+  	padding-left: 49px;
+	}
+
+	
+}
+
+.btn_deleteDatum{
+	border:none;
+	float: right;
+	margin-right: 20px;
+}
+
+.profile_edit{
+  display: none;
+}
+
+.profile_on{
+  display: block;
+}
+
+.container_Profile{
+  .displayOn{
+      display: block;
+  }
+  .displayOff{
+      display: none;
+  }
+}

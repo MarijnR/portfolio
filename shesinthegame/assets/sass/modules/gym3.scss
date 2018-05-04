@@ -1,0 +1,118 @@
+
+
+#gym3 {
+	width: 1180px;
+	height: 700px;
+	background-image: url('../img/gym/4_metlisa.png');
+	background-size: 100% 100%;
+	position:absolute;
+	left:1180px;
+
+
+	img.lisahover {
+		position: absolute;
+		left: 749px;
+		top: 331px;
+		width: 38px;
+		display: block;
+		opacity: 0;
+		-webkit-transition: opacity 0.2s;
+		transition: opacity 0.6s;
+	}	
+
+	img#LisaFlikr {
+		position: absolute;
+		left: 749px;
+		top: 331px;
+		width: 38px;
+		display: block;
+		opacity: 0;
+		-webkit-transition: opacity 0.2s; /* For Safari 3.1 to 6.0 */
+		transition: opacity 0.6s;
+		-webkit-animation: flikr 1s infinite; /* Safari 4+ */
+		-moz-animation:    flikr 1s infinite; /* Fx 5+ */
+		-o-animation:      flikr 1s infinite; /* Opera 12+ */
+		animation:         flikr 1s infinite;
+	}	
+
+
+	.textLisa {
+		@include centering();
+		width: 700px;
+		height: 200px;
+		padding: 50px;
+		background-color:white;
+		top: 1000px;
+		-webkit-transition: top ease 0.5s; /* For Safari 3.1 to 6.0 */
+		transition: top ease 0.5s;
+		-webkit-box-shadow: 3px 3px 7px -2px rgba(77,77,77,1);
+		-moz-box-shadow: 3px 3px 7px -2px rgba(77,77,77,1);
+		box-shadow: 3px 3px 7px -2px rgba(77,77,77,1);
+
+		h3 {
+			font-size: 3rem;
+			height: 20px;
+			margin-top: 16px;
+			font-family: paragraaf;
+		}
+
+		h4 {
+			font-family: ondertitel;
+			text-transform: uppercase;
+
+		}
+
+		p {
+			font-family: ondertitel;
+		}
+
+
+		#saraProfiel {
+			width: 28%;
+			float: left;
+			padding: 21px;
+
+		}
+	}
+
+
+
+	#closeBTNgym3 {
+		position:absolute;
+		width: 20px;
+		top: 6px;
+		right: 12px;
+
+	}
+
+	.socialmediaBTN {
+
+		ul {
+			position: absolute;
+			top: 245px;
+			left: 53px;
+			li {
+				list-style-type: none;
+				margin: 30px;
+				display: -webkit-inline-box;
+
+				a {
+					background-color:transparent;
+
+					img {
+						width: 27px;
+						padding: 12px 10px 19px 10px;
+					}
+
+				}
+			}
+		}
+
+	}
+
+}
+
+#gym3 img:hover {
+	cursor: pointer;
+	opacity: 1;
+}

@@ -1,0 +1,12 @@
+body {
+	background-image: url(../images/canvas.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+#wrapper {
+	margin: auto;
+	width: 986px;
+	padding-left: 14px;
+	padding-top: 386px;
+	height: 1200px;
+}

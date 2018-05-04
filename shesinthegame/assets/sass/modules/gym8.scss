@@ -1,0 +1,110 @@
+	#gym8 {
+		width: 1180px;
+		height: 700px;
+		background-image: url('../img/gym/9.png');
+		background-size: 100% 100%;
+		position:absolute;
+		left:1180px;
+		#liesbeth{
+			width: 50px;
+			top: 266px;
+			left: 870px;
+			position: absolute;
+			-webkit-animation: flikr 1s infinite;
+			-moz-animation:    flikr 1s infinite;
+			-o-animation:      flikr 1s infinite;
+			animation:         flikr 1s infinite;
+		}
+		#liesbeth_hover{
+			width: 50px;
+			top: 266px;
+			left: 870px;
+			position: absolute;
+			opacity: 0;
+		}
+
+		#liesbeth_hover:hover{
+			cursor: pointer;
+			opacity: 1;
+		}
+
+		.textLiesbeth{
+			@include centering();
+			width: 700px;
+			height: 200px;
+			padding: 50px;
+			background-color:white;
+			top: 1000px;
+			-webkit-transition: top ease 0.5s; /* For Safari 3.1 to 6.0 */
+			transition: top ease 0.5s;
+			-webkit-box-shadow: 3px 3px 7px -2px rgba(77,77,77,1);
+			-moz-box-shadow: 3px 3px 7px -2px rgba(77,77,77,1);
+			box-shadow: 3px 3px 7px -2px rgba(77,77,77,1);
+
+			h3 {
+				font-size: 3rem;
+				height: 20px;
+				margin-top: 16px;
+				font-family: paragraaf;
+			}
+
+			h4 {
+				font-family: ondertitel;
+				text-transform: uppercase;
+
+			}
+
+			p {
+				font-family: ondertitel;
+			}
+
+
+			#liesbethProfiel {
+				width: 28%;
+				float: left;
+				padding: 21px;
+
+			}
+		}
+
+
+
+		#closeBTNgym8 {
+			position:absolute;
+			width: 20px;
+			top: 6px;
+			right: 12px;
+
+		}
+
+			#closeBTNgym8:hover{
+		cursor: pointer;
+
+		}
+
+		.socialmediaBTN {
+
+			ul {
+				position: absolute;
+				top: 245px;
+				left: 53px;
+				li {
+					list-style-type: none;
+					margin: 30px;
+					display: -webkit-inline-box;
+
+					a {
+						background-color:transparent;
+
+						img {
+							width: 27px;
+							padding: 12px 10px 19px 10px;
+						}
+
+					}
+				}
+			}
+
+		}
+
+	}

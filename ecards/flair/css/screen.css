@@ -1,0 +1,12 @@
+body {
+	background-image: url(../images/flair.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+#wrapper {
+	margin: auto;
+	width: 331px;
+	padding-left: 669px;
+	padding-top: 220px;
+	height: 1200px;
+}

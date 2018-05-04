@@ -1,0 +1,12 @@
+body {
+	background-image: url(../images/tijd.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+#wrapper {
+	margin: auto;
+	width: 366px;
+	padding-left: 634px;
+	padding-top: 236px;
+	height: 1200px;
+}

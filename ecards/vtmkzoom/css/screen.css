@@ -1,0 +1,12 @@
+body {
+	background-image: url(../images/vtmkzoom.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+#wrapper {
+	margin: auto;
+	width: 984px;
+	padding-left: 16px;
+	padding-top: 110px;
+	height: 1200px;
+}
